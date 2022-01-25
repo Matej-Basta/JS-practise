@@ -1,0 +1,14 @@
+body {
+  padding-top: 1rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
