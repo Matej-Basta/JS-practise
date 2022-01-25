@@ -3,6 +3,12 @@ img {
   margin: auto;
 }
 
+h2 {
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .button {
   display: block;
   margin: 0.5rem auto;
@@ -16,4 +22,18 @@ img {
 input {
   margin: auto;
   display: block;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-top: 0.5rem;
+}
+
+.submit {
+  display: block;
+  margin: auto;
+}
+
+.message {
+  text-align: center;
 }
