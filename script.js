@@ -3,8 +3,9 @@ const productAddedToCartAlert = () => {
 };
 
 const changingButtonLabel = () => {
-  buyButton.textContent = "In cart.";
   buyButton.className += " button2";
+  const quantity = document.getElementById("quantity").value;
+  buyButton.textContent = quantity + " pieces in cart.";
 };
 
 const buyButton = document.getElementById("buy-button");
