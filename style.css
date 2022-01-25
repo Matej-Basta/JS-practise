@@ -7,8 +7,12 @@ img {
   margin: auto;
 }
 
-button {
+.button {
   display: block;
   margin: 1rem auto;
   font-size: 1.5rem;
+}
+
+.button2 {
+  background-color: green;
 }

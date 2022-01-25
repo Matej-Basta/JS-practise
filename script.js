@@ -4,6 +4,7 @@ const productAddedToCartAlert = () => {
 
 const changingButtonLabel = () => {
   buyButton.textContent = "In cart.";
+  buyButton.className += " button2";
 };
 
 const buyButton = document.getElementById("buy-button");
