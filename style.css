@@ -56,3 +56,9 @@ form {
   margin: auto;
   display: block;
 }
+
+.salary {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}

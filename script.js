@@ -42,13 +42,29 @@ let bulb = document.getElementById("bulb-container");
 const changingBackground = () => {
   if (bulb.className === "bulb-container bulb-container--on") {
     bulb.className = "bulb-container";
-    console.log("both");
   } else {
     bulb.className += " bulb-container--on";
-    console.log("one");
   }
 };
 
 bulb.onclick = function () {
   changingBackground();
+};
+
+//fourth exericse
+
+const par = document.getElementById("salary");
+const payButton = document.querySelector(".pay-button");
+
+const computingSalary = () => {
+  const hourlyPay = Number(document.getElementById("hourlyPay").value);
+  const hoursADay = Number(document.getElementById("hoursADay").value);
+  const daysAMonth = Number(document.getElementById("daysAMonth").value);
+  const salary = hourlyPay * hoursADay * daysAMonth;
+
+  par.textContent = `Your monthly salary is ${salary} euros.`;
+};
+
+payButton.onclick = function () {
+  computingSalary();
 };
