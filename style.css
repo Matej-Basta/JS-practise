@@ -1,6 +1,7 @@
 img {
   display: block;
   margin: auto;
+  height: 60vh;
 }
 
 h2 {
@@ -49,4 +50,9 @@ form {
 
 .bulb-container--on {
   background-image: url(on.png);
+}
+
+.pay-button {
+  margin: auto;
+  display: block;
 }
