@@ -37,3 +37,16 @@ form {
 .message {
   text-align: center;
 }
+
+.bulb-container {
+  height: 60vh;
+  width: 30vw;
+  margin: auto;
+  background-image: url(off.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.bulb-container--on {
+  background-image: url(on.png);
+}
